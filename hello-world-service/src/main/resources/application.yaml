@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hello-world-service
+
+  security:
+    jwt:
+      secret: ${JWT_SECRET:9f8c7a6b5d4e3f2a1b0c9d8e7f6a5b4c9f8c6frb0c9d8e7f6axh7ojngsr14cdbh7a6b5d4e3f2a1b0c9d8e7f6a5b4}
+
+
+server:
+  port: 8084

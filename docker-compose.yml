@@ -1,0 +1,63 @@
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: postgres-db
+    environment:
+      POSTGRES_DB: spboot-auth-service
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: sisu
+    ports:
+      - "5432:5432"
+    networks:
+      - auth-network
+
+  auth-service:
+    build:
+      context: ./spboot-auth-service
+    image: spboot-auth-service-img
+    container_name: auth-service
+    ports:
+      - "8085:8085"
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      DB_URL: jdbc:postgresql://postgres:5432/spboot-auth-service
+      DB_USERNAME: postgres
+      DB_PASSWORD: sisu
+    depends_on:
+      - postgres
+    networks:
+      - auth-network
+
+  hello-service:
+    build:
+      context: ./hello-world-service
+    image: hello-service-img
+    container_name: hello-service
+    ports:
+      - "8086:8084"
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+    depends_on:
+      - auth-service
+    networks:
+      - auth-network
+
+  frontend:
+    build:
+      context: ./auth-app-react   # your Vite React app folder
+      args:
+        VITE_API_BASE_URL: http://localhost:8085/api/v1
+    image: react-vite-ui-img
+    container_name: auth-react
+    ports:
+      - "3000:80"          # React served by nginx
+    depends_on:
+      - auth-service
+      - hello-service
+    networks:
+      - auth-network
+
+networks:
+  auth-network:
+    driver: bridge

@@ -1,0 +1,116 @@
+=>In locally spring boot auth service running on port in prod is 8085
+also in container 8085 and also exposing in browser is 8085
+
+
+=>In locally spring boot hello service running on port in prod is 8084
+also in container 8084 but exposing in browser is 8086
+
+=>In locally postgresql running on port in prod is 5432 but i don't want local db..becoz i'm using docker compose so let
+ postgresql install and run inside docker container port 5432
+
+ Execution flow
+ ================
+PS C:\Users\niran> cd C:\project\LCWD\spboot-auth-service-react-project
+PS C:\project\LCWD\spboot-auth-service-react-project> ls
+
+
+    Directory: C:\project\LCWD\spboot-auth-service-react-project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        31-05-2026     09:19                .idea
+d-----        28-05-2026     17:07                auth-app-react
+d-----        31-05-2026     09:26                hello-world-service
+d-----        30-05-2026     20:47                logs
+d-----        31-05-2026     09:26                spboot-auth-service
+-a----        31-05-2026     03:01           1073 docker-compose.yml
+-a----        27-05-2026     22:00           1185 pom.xml
+-a----        31-05-2026     09:19            491 service-docker-db-docker-docker-compose-execution-steps
+
+
+PS C:\project\LCWD\spboot-auth-service-react-project>mvn clean package -DskipTests
+PS C:\project\LCWD\spboot-auth-service-react-project>docker compose up --build -d
+
+PS C:\project\LCWD\spboot-auth-service-react-project> docker ps
+CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+800e05b91592   react-vite-ui-img         "/docker-entrypoint.…"   40 seconds ago   Up 37 seconds   0.0.0.0:3000->80/tcp, [::]:3000->80/tcp       auth-react
+33410949dbde   hello-service-img         "java -jar spboot-he…"   40 seconds ago   Up 38 seconds   0.0.0.0:8086->8084/tcp, [::]:8086->8084/tcp   hello-service
+c1e361296167   spboot-auth-service-img   "java -jar spboot-au…"   40 seconds ago   Up 39 seconds   0.0.0.0:8085->8085/tcp, [::]:8085->8085/tcp   auth-service
+0b2bf1b542e1   postgres:16               "docker-entrypoint.s…"   41 seconds ago   Up 39 seconds   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp   postgres-db
+PS C:\project\LCWD\spboot-auth-service-react-project>
+PS C:\project\LCWD\spboot-auth-service-react-project>
+PS C:\project\LCWD\spboot-auth-service-react-project> docker images
+                                                                                                                                        i Info →   U  In Use
+IMAGE                            ID             DISK USAGE   CONTENT SIZE   EXTRA
+hello-service-img:latest         5d2a526ddc85        512MB          142MB    U
+postgres:16                      4b7183ac05f8        642MB          166MB    U
+react-vite-ui-img:latest         5df0f5c2ef8c       93.7MB         26.3MB    U
+spboot-auth-service-img:latest   d2ebd5435cba        599MB          183MB    U
+PS C:\project\LCWD\spboot-auth-service-react-project>
+
+PS C:\project\LCWD\spboot-auth-service-react-project> docker exec -it postgres-db psql -U postgres -d spboot-auth-service
+psql (16.14 (Debian 16.14-1.pgdg13+1))
+Type "help" for help.
+
+spboot-auth-service=# \dt
+               List of relations
+ Schema |       Name        | Type  |  Owner
+--------+-------------------+-------+----------
+ public | event_publication | table | postgres
+ public | refresh_tokens    | table | postgres
+ public | roles             | table | postgres
+ public | user_roles        | table | postgres
+ public | users             | table | postgres
+(5 rows)
+
+spboot-auth-service=# \d
+               List of relations
+ Schema |       Name        | Type  |  Owner
+--------+-------------------+-------+----------
+ public | event_publication | table | postgres
+ public | refresh_tokens    | table | postgres
+ public | roles             | table | postgres
+ public | user_roles        | table | postgres
+ public | users             | table | postgres
+(5 rows)
+
+spboot-auth-service=# select * from users;
+ user_id | created_at | user_email | enable | image | user_name | password | provider | provider_id | updated_at
+---------+------------+------------+--------+-------+-----------+----------+----------+-------------+------------
+(0 rows)
+
+spboot-auth-service=#
+
+POST : http://localhost:8085/api/v1/auth/register
+{
+    "id": "e4e22e0a-c19f-4966-91aa-ae354d5687fd",
+    "email": "niranjana.charty2013@gmail.com",
+    "name": "Niranjana",
+    "enabled": true,
+    "createdAt": "2026-05-31T04:33:46.931572784Z",
+    "image": "https://gmail.com/profile/Niranjana.jpg",
+    "roles": [
+        {
+            "id": "3c5a6f71-bbfd-4c92-8f41-b6957bb2a062",
+            "name": "ROLE_ADMIN"
+        }
+    ]
+}
+
+spboot-auth-service=# select * from users;
+
+               user_id                |          created_at           |     user_email     | enable |                 image                  | user_name |                           password                           | provider | provider_id |          updated_at
+--------------------------------------+-------------------------------+--------------------+--------+----------------------------------------+-----------+--------------------------------------------------------------+----------+-------------+-------------------------------
+ e4e22e0a-c19f-4966-91aa-ae354d5687fd | 2026-05-31 04:33:46.931573+00 | niranjana.charty2013@gmail.com | t      | https://gmail.com/profile/Niranjana.jpg | Niranjana  | $2a$10$piyeqtoMh1uCIvsUxq1JZ.wtrjMzE0fR13oJCxXdYJY/pM4RpqZv2 | LOCAL    |             | 2026-05-31 04:33:46.938523+00
+(1 row)
+
+
+POST: http://localhost:8085/api/v1/auth/login
+POST: http://localhost:8085/api/v1/auth/refresh
+POST: http://localhost:8085/api/v1/users (create user)
+PUT: http://localhost:8085/api/v1/users/3f447f9a-a01a-43b3-9b82-22a7c4667911 (update user by id)
+GET: http://localhost:8085/api/v1/users (fetch all user)
+GET: http://localhost:8086/api/v1/hello
+GET: http://localhost:8086/api/v1/hello/admin
+

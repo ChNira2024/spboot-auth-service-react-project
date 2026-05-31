@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spboot-auth-service
+  profiles:
+    active:
+      - prod

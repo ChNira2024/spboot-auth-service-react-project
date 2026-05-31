@@ -1,0 +1,1275 @@
+2026-05-30 20:47:31 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-30 20:47:31 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-30 20:47:31 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-30 20:47:31 [http-nio-8083-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 20:47:31 [http-nio-8083-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 20:47:31 [http-nio-8083-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 20:47:31 [http-nio-8083-exec-1] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-05-30 20:47:32 [http-nio-8083-exec-1] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI5YjVkNGNjNC0xN2VjLTRkOGItYWE0YS0wNzViMDliMzkxODYiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDI0MDY1MiwidHlwIjoicmVmcmVzaCJ9.y5udbs6GmmH4cXl6LaUASUcnlKdcDZLm-vU9WUonqdZ5Vz8F_Y92wAL1bAKbKK8tJAQnWtSK1YIfKot4RBij3A
+2026-05-30 20:47:46 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users
+2026-05-30 20:47:46 [http-nio-8083-exec-3] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 20:47:46 [http-nio-8083-exec-3] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 20:47:46 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users
+2026-05-30 20:47:46 [http-nio-8083-exec-3] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 20:47:46 [http-nio-8083-exec-3] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 20:47:46 [http-nio-8083-exec-3] INFO  c.s.a.service.impl.UserServiceImpl2 - Fetching all users
+2026-05-30 20:48:38 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/email/narattam@gmail.com
+2026-05-30 20:48:38 [http-nio-8083-exec-4] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 20:48:38 [http-nio-8083-exec-4] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 20:48:38 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users/email/narattam@gmail.com
+2026-05-30 20:48:38 [http-nio-8083-exec-4] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 20:48:38 [http-nio-8083-exec-4] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 20:48:38 [http-nio-8083-exec-4] INFO  c.s.a.service.impl.UserServiceImpl2 - Fetching user by email: narattam@gmail.com
+2026-05-30 20:50:56 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-30 20:50:56 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-30 20:50:57 [SpringApplicationShutdownHook] INFO  o.s.m.e.c.DefaultEventPublicationRegistry - No publications outstanding!
+2026-05-30 20:50:57 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-30 20:50:57 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-30 20:50:57 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-30 20:51:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-05-30 20:51:00 [main] INFO  c.s.a.SpbootAuthServiceApplication - Starting SpbootAuthServiceApplication using Java 21.0.10 with PID 18248 (C:\project\LCWD\spboot-auth-service-react-project\spboot-auth-service\target\classes started by niran in C:\project\LCWD\spboot-auth-service-react-project)
+2026-05-30 20:51:00 [main] INFO  c.s.a.SpbootAuthServiceApplication - The following 1 profile is active: "DEV"
+2026-05-30 20:51:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-30 20:51:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2026-05-30 20:51:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2026-05-30 20:51:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2026-05-30 20:51:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-30 20:51:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-30 20:51:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-30 20:51:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1672 ms
+2026-05-30 20:51:02 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-30 20:51:02 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-30 20:51:02 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-30 20:51:02 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-30 20:51:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-30 20:51:02 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d7e2795
+2026-05-30 20:51:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-30 20:51:02 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-30 20:51:02 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-30 20:51:03 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-30 20:51:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-30 20:51:04 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-05-30 20:51:04 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-05-30 20:51:04 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-30 20:51:04 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2LoginAuthenticationFilter, JwtAuthenticationFilter2, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-05-30 20:51:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2026-05-30 20:51:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2026-05-30 20:51:05 [main] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-05-30 20:51:05 [main] INFO  c.s.a.SpbootAuthServiceApplication - Started SpbootAuthServiceApplication in 5.279 seconds (process running for 5.645)
+2026-05-30 20:51:05 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-30 20:51:05 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-30 20:51:19 [http-nio-8083-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-30 20:51:19 [http-nio-8083-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-30 20:51:19 [http-nio-8083-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-30 20:51:19 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users
+2026-05-30 20:51:19 [http-nio-8083-exec-3] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 20:51:19 [http-nio-8083-exec-3] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 20:51:19 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users
+2026-05-30 20:51:19 [http-nio-8083-exec-3] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 20:51:19 [http-nio-8083-exec-3] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 20:51:19 [http-nio-8083-exec-3] INFO  c.s.a.service.impl.UserServiceImpl2 - Fetching all users
+2026-05-30 20:52:23 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/b5626c8f-b4e2-40f2-8065-084e0e761c68
+2026-05-30 20:52:23 [http-nio-8083-exec-5] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 20:52:23 [http-nio-8083-exec-5] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 20:52:23 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users/b5626c8f-b4e2-40f2-8065-084e0e761c68
+2026-05-30 20:52:23 [http-nio-8083-exec-5] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 20:52:23 [http-nio-8083-exec-5] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 20:53:05 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/users
+2026-05-30 20:53:05 [http-nio-8083-exec-6] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 20:53:05 [http-nio-8083-exec-6] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 20:53:05 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/users
+2026-05-30 20:53:05 [http-nio-8083-exec-6] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 20:53:05 [http-nio-8083-exec-6] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 20:53:06 [http-nio-8083-exec-6] INFO  c.s.a.service.impl.UserServiceImpl2 - Creating user with email: nosa@gmail.com
+2026-05-30 20:53:06 [http-nio-8083-exec-6] INFO  c.s.a.service.impl.UserServiceImpl2 - User created successfully: nosa@gmail.com
+2026-05-30 20:53:58 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing PUT /api/v1/users/d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 20:53:58 [http-nio-8083-exec-4] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 20:54:06 [http-nio-8083-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 20:54:06 [http-nio-8083-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 20:54:06 [http-nio-8083-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 20:54:06 [http-nio-8083-exec-10] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-05-30 20:54:07 [http-nio-8083-exec-10] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIwMzA1MmFlMC1mOWI3LTRmMmQtOTkwMy1lNTI0MGJjOGIxOGUiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQ2NDcsImV4cCI6MTc4MDI0MTA0NywidHlwIjoicmVmcmVzaCJ9.US_znxAzztN2EleqcN0RfynyzSdpg0_RXhwFvpJXEld7UKybvoU4Y6mGLoq2I7dzFOMETD9C1sA3Pz50uKWqVg
+2026-05-30 20:54:20 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing PUT /api/v1/users/d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 20:54:20 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIwNjVhMDcwYy0wOTcyLTRjM2ItOGZiZC1kYWQ4YmU0ZWE0NGEiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQ2NDYsImV4cCI6MTc4MDE1NTI0NiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.tRipLlGPAxU2mtU39REBhe4NI25a251vYmyGo4taK6ecBtNmIQEL9yDNjyrDJY9e06dZkHGdklvOCd1pFPtSKg
+2026-05-30 20:54:20 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 20:54:20 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured PUT /api/v1/users/d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 20:54:20 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIwNjVhMDcwYy0wOTcyLTRjM2ItOGZiZC1kYWQ4YmU0ZWE0NGEiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQ2NDYsImV4cCI6MTc4MDE1NTI0NiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.tRipLlGPAxU2mtU39REBhe4NI25a251vYmyGo4taK6ecBtNmIQEL9yDNjyrDJY9e06dZkHGdklvOCd1pFPtSKg
+2026-05-30 20:54:20 [http-nio-8083-exec-8] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 20:54:20 [http-nio-8083-exec-8] INFO  c.s.a.service.impl.UserServiceImpl2 - Updating user with id: d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 20:54:20 [http-nio-8083-exec-8] INFO  c.s.a.service.impl.UserServiceImpl2 - User updated successfully: nosa@gmail.com
+2026-05-30 20:55:47 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2026-05-30 20:55:47 [http-nio-8083-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 20:55:47 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2026-05-30 20:55:47 [http-nio-8083-exec-3] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI2MDVkMjdkYy0wMDM1LTRiZjctYTRkYi03MDdiNTQ2MjJjMjQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQ3NDcsImV4cCI6MTc4MDI0MTE0NywidHlwIjoicmVmcmVzaCJ9.Ch8UsZwTOw_a0wRUz1gWAIB-hsE9LVxJ7508HPf6zb1oHgmdiE9bh17tVmEV5CeVm96e2IXYV4CaUShLz9fL1A
+2026-05-30 20:56:16 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 20:56:16 [http-nio-8083-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 20:56:16 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 20:56:16 [http-nio-8083-exec-2] DEBUG o.s.s.a.DefaultAuthenticationEventPublisher - No event was found for the exception org.springframework.security.authentication.InternalAuthenticationServiceException
+2026-05-30 20:56:16 [http-nio-8083-exec-2] DEBUG o.s.s.authentication.ProviderManager - Authentication service failed internally for user 'naratam@gmail.com'
+org.springframework.security.authentication.InternalAuthenticationServiceException: Invalid Email or Password !!
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:136)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:138)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at com.spboot.auth.security.controller.AuthController2.login(AuthController2.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.security.authentication.BadCredentialsException: Invalid Email or Password !!
+	at com.spboot.auth.security.service.CustomUserDetailService.lambda$loadUserByUsername$0(CustomUserDetailService.java:19)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.spboot.auth.security.service.CustomUserDetailService.loadUserByUsername(CustomUserDetailService.java:19)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:121)
+	... 118 common frames omitted
+2026-05-30 20:56:26 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 20:56:26 [http-nio-8083-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 20:56:26 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 20:56:26 [http-nio-8083-exec-7] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Failed to authenticate since password does not match stored value
+2026-05-30 20:56:26 [http-nio-8083-exec-7] DEBUG o.s.s.authentication.ProviderManager - Authentication failed with provider DaoAuthenticationProvider since Bad credentials
+2026-05-30 20:56:26 [http-nio-8083-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.spboot.auth.exception.InvalidCredentialsException: Invalid email or password] with root cause
+com.spboot.auth.exception.InvalidCredentialsException: Invalid email or password
+	at com.spboot.auth.security.controller.AuthController2.login(AuthController2.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-30 20:56:26 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2026-05-30 20:56:26 [http-nio-8083-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 20:56:40 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 20:56:40 [http-nio-8083-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 20:56:40 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 20:56:41 [http-nio-8083-exec-5] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Failed to authenticate since password does not match stored value
+2026-05-30 20:56:41 [http-nio-8083-exec-5] DEBUG o.s.s.authentication.ProviderManager - Authentication failed with provider DaoAuthenticationProvider since Bad credentials
+2026-05-30 20:56:41 [http-nio-8083-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.spboot.auth.exception.InvalidCredentialsException: Invalid email or password] with root cause
+com.spboot.auth.exception.InvalidCredentialsException: Invalid email or password
+	at com.spboot.auth.security.controller.AuthController2.login(AuthController2.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-30 20:56:41 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2026-05-30 20:56:41 [http-nio-8083-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 20:58:16 [http-nio-8083-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 20:58:16 [http-nio-8083-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 20:58:16 [http-nio-8083-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 20:58:16 [http-nio-8083-exec-10] DEBUG o.s.s.a.DefaultAuthenticationEventPublisher - No event was found for the exception org.springframework.security.authentication.InternalAuthenticationServiceException
+2026-05-30 20:58:16 [http-nio-8083-exec-10] DEBUG o.s.s.authentication.ProviderManager - Authentication service failed internally for user 'naratam@gmail.com'
+org.springframework.security.authentication.InternalAuthenticationServiceException: Invalid Email or Password !!
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:136)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:138)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at com.spboot.auth.security.controller.AuthController2.login(AuthController2.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.security.authentication.BadCredentialsException: Invalid Email or Password !!
+	at com.spboot.auth.security.service.CustomUserDetailService.lambda$loadUserByUsername$0(CustomUserDetailService.java:19)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.spboot.auth.security.service.CustomUserDetailService.loadUserByUsername(CustomUserDetailService.java:19)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:121)
+	... 118 common frames omitted
+2026-05-30 21:10:20 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-30 21:10:20 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-30 21:10:20 [SpringApplicationShutdownHook] INFO  o.s.m.e.c.DefaultEventPublicationRegistry - No publications outstanding!
+2026-05-30 21:10:20 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-30 21:10:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-30 21:10:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-30 21:10:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-05-30 21:10:29 [main] INFO  c.s.a.SpbootAuthServiceApplication - Starting SpbootAuthServiceApplication using Java 21.0.10 with PID 12164 (C:\project\LCWD\spboot-auth-service-react-project\spboot-auth-service\target\classes started by niran in C:\project\LCWD\spboot-auth-service-react-project)
+2026-05-30 21:10:29 [main] INFO  c.s.a.SpbootAuthServiceApplication - The following 1 profile is active: "DEV"
+2026-05-30 21:10:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-30 21:10:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2026-05-30 21:10:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2026-05-30 21:10:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2026-05-30 21:10:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-30 21:10:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-30 21:10:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-30 21:10:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1654 ms
+2026-05-30 21:10:30 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-30 21:10:31 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-30 21:10:31 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-30 21:10:31 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-30 21:10:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-30 21:10:31 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@752494dd
+2026-05-30 21:10:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-30 21:10:31 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-30 21:10:31 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-30 21:10:32 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-30 21:10:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-30 21:10:32 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-05-30 21:10:32 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-05-30 21:10:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-30 21:10:33 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2LoginAuthenticationFilter, JwtAuthenticationFilter2, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-05-30 21:10:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2026-05-30 21:10:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2026-05-30 21:10:33 [main] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-05-30 21:10:33 [main] INFO  c.s.a.SpbootAuthServiceApplication - Started SpbootAuthServiceApplication in 5.252 seconds (process running for 5.607)
+2026-05-30 21:10:33 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-30 21:10:33 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-30 21:10:48 [http-nio-8083-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-30 21:10:48 [http-nio-8083-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-30 21:10:48 [http-nio-8083-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-30 21:10:48 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:10:48 [http-nio-8083-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:10:48 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:10:48 [http-nio-8083-exec-3] DEBUG o.s.s.a.DefaultAuthenticationEventPublisher - No event was found for the exception org.springframework.security.authentication.InternalAuthenticationServiceException
+2026-05-30 21:10:48 [http-nio-8083-exec-3] DEBUG o.s.s.authentication.ProviderManager - Authentication service failed internally for user 'naratam@gmail.com'
+org.springframework.security.authentication.InternalAuthenticationServiceException: Invalid Email or Password !!
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:136)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:138)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at com.spboot.auth.security.controller.AuthController2.login(AuthController2.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.security.authentication.BadCredentialsException: Invalid Email or Password !!
+	at com.spboot.auth.security.service.CustomUserDetailService.lambda$loadUserByUsername$0(CustomUserDetailService.java:19)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.spboot.auth.security.service.CustomUserDetailService.loadUserByUsername(CustomUserDetailService.java:19)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:121)
+	... 118 common frames omitted
+2026-05-30 21:11:05 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:11:05 [http-nio-8083-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:11:05 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:11:05 [http-nio-8083-exec-2] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Failed to authenticate since password does not match stored value
+2026-05-30 21:11:05 [http-nio-8083-exec-2] DEBUG o.s.s.authentication.ProviderManager - Authentication failed with provider DaoAuthenticationProvider since Bad credentials
+2026-05-30 21:11:20 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:11:20 [http-nio-8083-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:11:20 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:11:20 [http-nio-8083-exec-4] DEBUG o.s.s.a.DefaultAuthenticationEventPublisher - No event was found for the exception org.springframework.security.authentication.InternalAuthenticationServiceException
+2026-05-30 21:11:20 [http-nio-8083-exec-4] DEBUG o.s.s.authentication.ProviderManager - Authentication service failed internally for user 'naratam@gmail.com'
+org.springframework.security.authentication.InternalAuthenticationServiceException: Invalid Email or Password !!
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:136)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:138)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at com.spboot.auth.security.controller.AuthController2.login(AuthController2.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.security.authentication.BadCredentialsException: Invalid Email or Password !!
+	at com.spboot.auth.security.service.CustomUserDetailService.lambda$loadUserByUsername$0(CustomUserDetailService.java:19)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.spboot.auth.security.service.CustomUserDetailService.loadUserByUsername(CustomUserDetailService.java:19)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:121)
+	... 118 common frames omitted
+2026-05-30 21:11:27 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:11:27 [http-nio-8083-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:11:27 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:11:28 [http-nio-8083-exec-5] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Failed to authenticate since password does not match stored value
+2026-05-30 21:11:28 [http-nio-8083-exec-5] DEBUG o.s.s.authentication.ProviderManager - Authentication failed with provider DaoAuthenticationProvider since Bad credentials
+2026-05-30 21:11:59 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:11:59 [http-nio-8083-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:11:59 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:11:59 [http-nio-8083-exec-6] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Failed to authenticate since password does not match stored value
+2026-05-30 21:11:59 [http-nio-8083-exec-6] DEBUG o.s.s.authentication.ProviderManager - Authentication failed with provider DaoAuthenticationProvider since Bad credentials
+2026-05-30 21:12:04 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:12:04 [http-nio-8083-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:12:04 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:12:04 [http-nio-8083-exec-7] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-05-30 21:12:04 [http-nio-8083-exec-7] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJhZDYxY2RiNy0zMjU4LTQ1N2ItOGU0My1kYjkyMmRjNjQ3OTciLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDI0MjEyNCwidHlwIjoicmVmcmVzaCJ9.ujwHq7B0rXTgZ5iclyNbqql--paVECvRE9wIvUjM6ExjaOkDUIkbGa60G12H7Wjy3HL8tPkuyxCMTfO8Q_gIcQ
+2026-05-30 21:12:25 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/email/narattam@gmail.com
+2026-05-30 21:12:25 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:12:25 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 21:12:25 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users/email/narattam@gmail.com
+2026-05-30 21:12:25 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:12:25 [http-nio-8083-exec-8] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 21:12:25 [http-nio-8083-exec-8] INFO  c.s.a.service.impl.UserServiceImpl2 - Fetching user by email: narattam@gmail.com
+2026-05-30 21:12:38 [http-nio-8083-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users
+2026-05-30 21:12:38 [http-nio-8083-exec-9] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 21:12:43 [http-nio-8083-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users
+2026-05-30 21:12:43 [http-nio-8083-exec-10] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:12:43 [http-nio-8083-exec-10] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 21:12:43 [http-nio-8083-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users
+2026-05-30 21:12:43 [http-nio-8083-exec-10] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:12:43 [http-nio-8083-exec-10] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 21:12:43 [http-nio-8083-exec-10] INFO  c.s.a.service.impl.UserServiceImpl2 - Fetching all users
+2026-05-30 21:12:53 [http-nio-8083-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users
+2026-05-30 21:12:53 [http-nio-8083-exec-1] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJL
+2026-05-30 21:12:59 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users
+2026-05-30 21:12:59 [http-nio-8083-exec-3] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:12:59 [http-nio-8083-exec-3] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 21:12:59 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users
+2026-05-30 21:12:59 [http-nio-8083-exec-3] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:12:59 [http-nio-8083-exec-3] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 21:12:59 [http-nio-8083-exec-3] INFO  c.s.a.service.impl.UserServiceImpl2 - Fetching all users
+2026-05-30 21:13:11 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/b5626c8f-b4e2-40f2-8065-084e0e761c68
+2026-05-30 21:13:11 [http-nio-8083-exec-2] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:13:11 [http-nio-8083-exec-2] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 21:13:11 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users/b5626c8f-b4e2-40f2-8065-084e0e761c68
+2026-05-30 21:13:11 [http-nio-8083-exec-2] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:13:11 [http-nio-8083-exec-2] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 21:13:17 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/b5626c8f-b4e2-40f2-8065-084e0e761c6
+2026-05-30 21:13:17 [http-nio-8083-exec-4] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:13:17 [http-nio-8083-exec-4] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 21:13:17 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users/b5626c8f-b4e2-40f2-8065-084e0e761c6
+2026-05-30 21:13:17 [http-nio-8083-exec-4] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:13:17 [http-nio-8083-exec-4] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 21:13:23 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/b5626c8f-b4e2-40f2-8065-084e0e761c68
+2026-05-30 21:13:23 [http-nio-8083-exec-5] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:13:23 [http-nio-8083-exec-5] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 21:13:23 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users/b5626c8f-b4e2-40f2-8065-084e0e761c68
+2026-05-30 21:13:23 [http-nio-8083-exec-5] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:13:23 [http-nio-8083-exec-5] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 21:13:28 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2026-05-30 21:13:28 [http-nio-8083-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:13:28 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2026-05-30 21:13:28 [http-nio-8083-exec-6] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI5NGZjZGIyYS05NDNmLTQyYTctODg3My1jODliYWFhOWNmN2YiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU4MDgsImV4cCI6MTc4MDI0MjIwOCwidHlwIjoicmVmcmVzaCJ9.DOo8rIj6Y5LUnzSOWjolnyH9WO22hUQ8-8AEvViuUEnIqdJO9ojLGRCQNcCiQBvRIdnKIUXBm7IIcnLj4qXsXQ
+2026-05-30 21:13:42 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing PUT /api/v1/users/d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 21:13:42 [http-nio-8083-exec-7] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:13:42 [http-nio-8083-exec-7] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 21:13:42 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured PUT /api/v1/users/d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 21:13:42 [http-nio-8083-exec-7] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:13:42 [http-nio-8083-exec-7] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 21:13:42 [http-nio-8083-exec-7] INFO  c.s.a.service.impl.UserServiceImpl2 - Updating user with id: d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 21:13:42 [http-nio-8083-exec-7] INFO  c.s.a.service.impl.UserServiceImpl2 - User updated successfully: nosa@gmail.com
+2026-05-30 21:13:51 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing PUT /api/v1/users/d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 21:13:51 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:13:51 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 21:13:51 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured PUT /api/v1/users/d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 21:13:51 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:13:51 [http-nio-8083-exec-8] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 21:13:51 [http-nio-8083-exec-8] INFO  c.s.a.service.impl.UserServiceImpl2 - Updating user with id: d0b4746e-3423-4b32-925b-401175b05c99
+2026-05-30 21:13:51 [http-nio-8083-exec-8] INFO  c.s.a.service.impl.UserServiceImpl2 - User updated successfully: nosa@gmail.com
+2026-05-30 21:14:00 [http-nio-8083-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/users
+2026-05-30 21:14:00 [http-nio-8083-exec-9] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJlOWU3MjA0ZC02YmNmLTQ5YTQtODJhOC0wYWZhZWVjMGE4MzQiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTQyNTIsImV4cCI6MTc4MDE1NDg1MiwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.Tp0YZk5r7tHhPSQFTzt9C2usFfXwBIuYNCbLpV8dPjlILeHj9w5xx62BGtTRwRIsxdiqIud_p84cEK45E_4ayA
+2026-05-30 21:17:32 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:17:32 [http-nio-8083-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:17:32 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:17:32 [http-nio-8083-exec-3] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-05-30 21:17:32 [http-nio-8083-exec-3] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJjYjZhNjJhYS1iYmYwLTQ3OGEtYjJmMC1hZTAwMzgxMGVjMjYiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTYwNTIsImV4cCI6MTc4MDI0MjQ1MiwidHlwIjoicmVmcmVzaCJ9.HsVBDJkhvsFyN3TxQOxlS45y_t02EQIim4pBkvaSblVenonNAUABgt3Oj3-9jKTeomQFmh2ZSylgPJ-ygnIKDg
+2026-05-30 21:18:09 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users
+2026-05-30 21:18:09 [http-nio-8083-exec-2] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:18:09 [http-nio-8083-exec-2] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 21:18:09 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users
+2026-05-30 21:18:09 [http-nio-8083-exec-2] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYTdkOTRkMS1iZDQ2LTRhMjMtYWVhYi01MDkxMzQ0NzVmNmMiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTU3MjQsImV4cCI6MTc4MDE1NjMyNCwiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.F2x3Ul_7rvbT41zpFyDF6AoXijeJ_VU_hA-I7hDHXuFFTB1fe2oVm_IkVLg5SCsZwxHxj6H2AKRvmgWFXAnJLg
+2026-05-30 21:18:09 [http-nio-8083-exec-2] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 21:18:09 [http-nio-8083-exec-2] INFO  c.s.a.service.impl.UserServiceImpl2 - Fetching all users
+2026-05-30 21:18:38 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:18:38 [http-nio-8083-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:18:38 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:18:38 [http-nio-8083-exec-4] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-05-30 21:18:38 [http-nio-8083-exec-4] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3ZjY4ODQ3OS04MTc1LTRlNTktYTRmNi1jZTgxM2E4NmNjOGQiLCJzdWIiOiI0NDgxNzRhNy1iYzQxLTQ2ZmQtOTcxZC0xMDliZjM0MjUyYjkiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTYxMTgsImV4cCI6MTc4MDI0MjUxOCwidHlwIjoicmVmcmVzaCJ9._NVNAbnhEs4SV5AbDoalZNk278dnt59DKd7dmOJfVIY9P9pmszdZ5TXrfmbyREqQAYfuHKILVD-t98eqNT5txw
+2026-05-30 21:20:29 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/login
+2026-05-30 21:20:29 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:20:29 [http-nio-8083-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:20:29 [http-nio-8083-exec-7] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id A7C5A8C8939A3631F32E1D0D57A98D4A
+2026-05-30 21:20:29 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:20:29 [http-nio-8083-exec-7] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Failed to authenticate since password does not match stored value
+2026-05-30 21:20:29 [http-nio-8083-exec-7] DEBUG o.s.s.authentication.ProviderManager - Authentication failed with provider DaoAuthenticationProvider since Bad credentials
+2026-05-30 21:20:29 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2026-05-30 21:20:29 [http-nio-8083-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:20:29 [http-nio-8083-exec-8] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id A7C5A8C8939A3631F32E1D0D57A98D4A
+2026-05-30 21:20:29 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2026-05-30 21:21:09 [http-nio-8083-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:21:09 [http-nio-8083-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:21:09 [http-nio-8083-exec-9] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id A7C5A8C8939A3631F32E1D0D57A98D4A
+2026-05-30 21:21:09 [http-nio-8083-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:21:09 [http-nio-8083-exec-9] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Failed to authenticate since password does not match stored value
+2026-05-30 21:21:09 [http-nio-8083-exec-9] DEBUG o.s.s.authentication.ProviderManager - Authentication failed with provider DaoAuthenticationProvider since Bad credentials
+2026-05-30 21:21:09 [http-nio-8083-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2026-05-30 21:21:09 [http-nio-8083-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:21:09 [http-nio-8083-exec-10] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id A7C5A8C8939A3631F32E1D0D57A98D4A
+2026-05-30 21:21:09 [http-nio-8083-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2026-05-30 21:22:58 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/login
+2026-05-30 21:22:58 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:22:58 [http-nio-8083-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:22:58 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:22:58 [http-nio-8083-exec-4] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Failed to authenticate since password does not match stored value
+2026-05-30 21:22:58 [http-nio-8083-exec-4] DEBUG o.s.s.authentication.ProviderManager - Authentication failed with provider DaoAuthenticationProvider since Bad credentials
+2026-05-30 21:22:58 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2026-05-30 21:22:58 [http-nio-8083-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:22:58 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2026-05-30 21:27:07 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 21:27:07 [http-nio-8083-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 21:27:07 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 21:27:07 [http-nio-8083-exec-8] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-05-30 21:27:07 [http-nio-8083-exec-8] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI5MzJlY2ZiYy0wMDZhLTQ0MWYtODdhNy03MGRlNjE5OGZiMWQiLCJzdWIiOiI1NzEyMWRhYy04Nzk5LTQ0ZDktOGRkMC03OWIyMDJkYmVlYjQiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTY2MjcsImV4cCI6MTc4MDI0MzAyNywidHlwIjoicmVmcmVzaCJ9.Dc1mY1JjGI3xbBGbcs2KuTgZ3JkZQY8mKukNedjcdyxXShXr5eZIqu2gnTSU8ZaRC1X9K8PFgND1TR4AgRlCPA
+2026-05-30 21:27:28 [http-nio-8083-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/users/email/anv@gmail.com
+2026-05-30 21:27:28 [http-nio-8083-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/email/anv@gmail.com
+2026-05-30 21:27:28 [http-nio-8083-exec-10] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI2NDRkYTI2YS02ODFhLTQ4MWUtYjhmNi03ZmI2NGYwZjA3NDIiLCJzdWIiOiI1NzEyMWRhYy04Nzk5LTQ0ZDktOGRkMC03OWIyMDJkYmVlYjQiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTY2MjcsImV4cCI6MTc4MDE1NzIyNywiZW1haWwiOiJhbnZAZ21haWwuY29tIiwicm9sZXMiOltdLCJ0eXAiOiJhY2Nlc3MifQ.XoTkL5rlbUGwmtrBqb1hnIWOE4e5DYjh_wSVqcp4-2PcIzRrQ_0R5oyLeqYDDDPLt1oJURUpmMxw5kV1SpdJ5Q
+2026-05-30 21:27:28 [http-nio-8083-exec-10] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 21:27:50 [http-nio-8083-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/email/anv@gmail.com
+2026-05-30 21:27:50 [http-nio-8083-exec-1] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI2NDRkYTI2YS02ODFhLTQ4MWUtYjhmNi03ZmI2NGYwZjA3NDIiLCJzdWIiOiI1NzEyMWRhYy04Nzk5LTQ0ZDktOGRkMC03OWIyMDJkYmVlYjQiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTY2MjcsImV4cCI6MTc4MDE1NzIyNywiZW1haWwiOiJhbnZAZ21haWwuY29tIiwicm9sZXMiOltdLCJ0eXAiOiJhY2Nlc3MifQ.XoTkL5rlbUGwmtrBqb1hnIWOE4e5DYjh_wSVqcp4-2PcIzRrQ_0R5oyLeqYDDDPLt1oJURUpmMxw5kV1SpdJ5Q
+2026-05-30 21:27:50 [http-nio-8083-exec-1] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 23:11:22 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m21s57ms629µs500ns).
+2026-05-30 23:27:26 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/logout
+2026-05-30 23:27:26 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/logout
+2026-05-30 23:27:26 [http-nio-8083-exec-5] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI2NDRkYTI2YS02ODFhLTQ4MWUtYjhmNi03ZmI2NGYwZjA3NDIiLCJzdWIiOiI1NzEyMWRhYy04Nzk5LTQ0ZDktOGRkMC03OWIyMDJkYmVlYjQiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTY2MjcsImV4cCI6MTc4MDE1NzIyNywiZW1haWwiOiJhbnZAZ21haWwuY29tIiwicm9sZXMiOltdLCJ0eXAiOiJhY2Nlc3MifQ.XoTkL5rlbUGwmtrBqb1hnIWOE4e5DYjh_wSVqcp4-2PcIzRrQ_0R5oyLeqYDDDPLt1oJURUpmMxw5kV1SpdJ5Q
+2026-05-30 23:27:26 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/refresh
+2026-05-30 23:27:26 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2026-05-30 23:27:26 [http-nio-8083-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 23:27:26 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2026-05-30 23:28:07 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/logout
+2026-05-30 23:28:07 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI2NDRkYTI2YS02ODFhLTQ4MWUtYjhmNi03ZmI2NGYwZjA3NDIiLCJzdWIiOiI1NzEyMWRhYy04Nzk5LTQ0ZDktOGRkMC03OWIyMDJkYmVlYjQiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNTY2MjcsImV4cCI6MTc4MDE1NzIyNywiZW1haWwiOiJhbnZAZ21haWwuY29tIiwicm9sZXMiOltdLCJ0eXAiOiJhY2Nlc3MifQ.XoTkL5rlbUGwmtrBqb1hnIWOE4e5DYjh_wSVqcp4-2PcIzRrQ_0R5oyLeqYDDDPLt1oJURUpmMxw5kV1SpdJ5Q
+2026-05-30 23:28:07 [http-nio-8083-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2026-05-30 23:28:07 [http-nio-8083-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 23:28:07 [http-nio-8083-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2026-05-30 23:29:02 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/login
+2026-05-30 23:29:02 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 23:29:02 [http-nio-8083-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 23:29:02 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 23:29:03 [http-nio-8083-exec-2] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Failed to authenticate since password does not match stored value
+2026-05-30 23:29:03 [http-nio-8083-exec-2] DEBUG o.s.s.authentication.ProviderManager - Authentication failed with provider DaoAuthenticationProvider since Bad credentials
+2026-05-30 23:29:21 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 23:29:21 [http-nio-8083-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 23:29:21 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 23:29:21 [http-nio-8083-exec-4] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-05-30 23:29:21 [http-nio-8083-exec-4] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxZDg5MGU0Yy1mN2I1LTQ4ZTktOWViNS00M2ZmODY4ODgxMzkiLCJzdWIiOiI1NzEyMWRhYy04Nzk5LTQ0ZDktOGRkMC03OWIyMDJkYmVlYjQiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNjM5NjEsImV4cCI6MTc4MDI1MDM2MSwidHlwIjoicmVmcmVzaCJ9.rarsBXKNNytDTN6xdHYew8AiHuMNz665qCnxC2GRS8ubo5sYWUK7Iulc-mcDPBhbiNnxS4kKnddZoUGFMhBE3w
+2026-05-30 23:29:53 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/users/email/anv@gmail.com
+2026-05-30 23:29:53 [http-nio-8083-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/email/anv@gmail.com
+2026-05-30 23:29:53 [http-nio-8083-exec-7] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYWU5YjYzMC0xZGM2LTQwZjItOTg5Yi00ZTMwNGEyNjQ0YWYiLCJzdWIiOiI1NzEyMWRhYy04Nzk5LTQ0ZDktOGRkMC03OWIyMDJkYmVlYjQiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNjM5NjEsImV4cCI6MTc4MDE2NDU2MSwiZW1haWwiOiJhbnZAZ21haWwuY29tIiwicm9sZXMiOltdLCJ0eXAiOiJhY2Nlc3MifQ.-uFyGFmRafKwWYI1M4jMMCV_xC5CdXwAsGT2Kq2BAQdNC9WJUuojQKKs2ahRxEa6d7z8AkWp05rt8189aBHLaQ
+2026-05-30 23:29:53 [http-nio-8083-exec-7] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 23:30:13 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/logout
+2026-05-30 23:30:13 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/logout
+2026-05-30 23:30:13 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxYWU5YjYzMC0xZGM2LTQwZjItOTg5Yi00ZTMwNGEyNjQ0YWYiLCJzdWIiOiI1NzEyMWRhYy04Nzk5LTQ0ZDktOGRkMC03OWIyMDJkYmVlYjQiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNjM5NjEsImV4cCI6MTc4MDE2NDU2MSwiZW1haWwiOiJhbnZAZ21haWwuY29tIiwicm9sZXMiOltdLCJ0eXAiOiJhY2Nlc3MifQ.-uFyGFmRafKwWYI1M4jMMCV_xC5CdXwAsGT2Kq2BAQdNC9WJUuojQKKs2ahRxEa6d7z8AkWp05rt8189aBHLaQ
+2026-05-30 23:30:13 [http-nio-8083-exec-8] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 23:30:13 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/logout
+2026-05-30 23:31:27 [http-nio-8083-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 23:31:27 [http-nio-8083-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 23:31:27 [http-nio-8083-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 23:31:27 [http-nio-8083-exec-1] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-05-30 23:31:27 [http-nio-8083-exec-1] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI5MTVkYzNmMC01NzUwLTQ0MjItODFkMC0xZDBkODBiZGY3ZjgiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNjQwODcsImV4cCI6MTc4MDI1MDQ4NywidHlwIjoicmVmcmVzaCJ9.KhtAwGfcE53PAwH1FMSVvhq5kpPu2pWyXUyODmkNaXzMtGCuuyMIOZPZiDd6ed6wflHn6mUnFL6Azgv_jftqCw
+2026-05-30 23:31:52 [http-nio-8083-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/users/email/narattam@gmail.com
+2026-05-30 23:31:52 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/email/narattam@gmail.com
+2026-05-30 23:31:52 [http-nio-8083-exec-2] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1OTBkYThkMi03OTg3LTQ3ZDAtYjIyMC03MDc1YWExMzFkZTAiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNjQwODcsImV4cCI6MTc4MDE2NDY4NywiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.iEpx6AvOFA8bfu_dA1TtaCkMwlzt3JE-GW_QbHT9ZTE8hkV6Fnz-TceCLmBsBrW_46qxrHAiclY-BRwzrSRL1w
+2026-05-30 23:31:52 [http-nio-8083-exec-2] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 23:31:52 [http-nio-8083-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users/email/narattam@gmail.com
+2026-05-30 23:31:52 [http-nio-8083-exec-2] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1OTBkYThkMi03OTg3LTQ3ZDAtYjIyMC03MDc1YWExMzFkZTAiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNjQwODcsImV4cCI6MTc4MDE2NDY4NywiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.iEpx6AvOFA8bfu_dA1TtaCkMwlzt3JE-GW_QbHT9ZTE8hkV6Fnz-TceCLmBsBrW_46qxrHAiclY-BRwzrSRL1w
+2026-05-30 23:31:52 [http-nio-8083-exec-2] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 23:31:52 [http-nio-8083-exec-2] INFO  c.s.a.service.impl.UserServiceImpl2 - Fetching user by email: narattam@gmail.com
+2026-05-30 23:32:46 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/v1/users/email/narattam@gmail.com
+2026-05-30 23:32:46 [http-nio-8083-exec-4] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1OTBkYThkMi03OTg3LTQ3ZDAtYjIyMC03MDc1YWExMzFkZTAiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNjQwODcsImV4cCI6MTc4MDE2NDY4NywiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.iEpx6AvOFA8bfu_dA1TtaCkMwlzt3JE-GW_QbHT9ZTE8hkV6Fnz-TceCLmBsBrW_46qxrHAiclY-BRwzrSRL1w
+2026-05-30 23:32:46 [http-nio-8083-exec-4] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 23:32:46 [http-nio-8083-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/v1/users/email/narattam@gmail.com
+2026-05-30 23:32:46 [http-nio-8083-exec-4] INFO  c.s.a.s.c.JwtAuthenticationFilter - Authorization header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1OTBkYThkMi03OTg3LTQ3ZDAtYjIyMC03MDc1YWExMzFkZTAiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNjQwODcsImV4cCI6MTc4MDE2NDY4NywiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.iEpx6AvOFA8bfu_dA1TtaCkMwlzt3JE-GW_QbHT9ZTE8hkV6Fnz-TceCLmBsBrW_46qxrHAiclY-BRwzrSRL1w
+2026-05-30 23:32:46 [http-nio-8083-exec-4] WARN  c.s.a.s.c.JwtAuthenticationFilter - User with UUID b5626c8f-b4e2-40f2-8065-084e0e761c68 is disabled
+2026-05-30 23:32:46 [http-nio-8083-exec-4] INFO  c.s.a.service.impl.UserServiceImpl2 - Fetching user by email: narattam@gmail.com
+2026-05-30 23:32:52 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/logout
+2026-05-30 23:32:52 [http-nio-8083-exec-5] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - HEADER: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1OTBkYThkMi03OTg3LTQ3ZDAtYjIyMC03MDc1YWExMzFkZTAiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNjQwODcsImV4cCI6MTc4MDE2NDY4NywiZW1haWwiOiJuYXJhdHRhbUBnbWFpbC5jb20iLCJyb2xlcyI6WyJST0xFX0FETUlOIl0sInR5cCI6ImFjY2VzcyJ9.iEpx6AvOFA8bfu_dA1TtaCkMwlzt3JE-GW_QbHT9ZTE8hkV6Fnz-TceCLmBsBrW_46qxrHAiclY-BRwzrSRL1w
+2026-05-30 23:32:52 [http-nio-8083-exec-5] INFO  c.s.a.s.c.JwtAuthenticationFilter2 - Token type: access
+2026-05-30 23:32:52 [http-nio-8083-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/logout
+2026-05-30 23:33:33 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 23:33:33 [http-nio-8083-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 23:33:33 [http-nio-8083-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 23:33:33 [http-nio-8083-exec-6] DEBUG o.s.s.a.DefaultAuthenticationEventPublisher - No event was found for the exception org.springframework.security.authentication.InternalAuthenticationServiceException
+2026-05-30 23:33:33 [http-nio-8083-exec-6] DEBUG o.s.s.authentication.ProviderManager - Authentication service failed internally for user 'naratta@gmail.com'
+org.springframework.security.authentication.InternalAuthenticationServiceException: Invalid Email or Password !!
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:136)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:138)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at com.spboot.auth.security.controller.AuthController2.login(AuthController2.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:370)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.security.authentication.BadCredentialsException: Invalid Email or Password !!
+	at com.spboot.auth.security.service.CustomUserDetailService.lambda$loadUserByUsername$0(CustomUserDetailService.java:19)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.spboot.auth.security.service.CustomUserDetailService.loadUserByUsername(CustomUserDetailService.java:19)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:121)
+	... 118 common frames omitted
+2026-05-30 23:34:03 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/login
+2026-05-30 23:34:03 [http-nio-8083-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-05-30 23:34:03 [http-nio-8083-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/login
+2026-05-30 23:34:03 [http-nio-8083-exec-8] DEBUG o.s.s.a.d.DaoAuthenticationProvider - Authenticated user
+2026-05-30 23:34:03 [http-nio-8083-exec-8] INFO  c.s.a.security.service.CookieService - Attaching cookie with name: refreshToken and value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI3ODA0NDE4Yy05MzMwLTRhNGYtYWUzNy02MDVmNzY3MjVhMjUiLCJzdWIiOiJiNTYyNmM4Zi1iNGUyLTQwZjItODA2NS0wODRlMGU3NjFjNjgiLCJpc3MiOiJjb20uc3Bib290LmF1dGgiLCJpYXQiOjE3ODAxNjQyNDMsImV4cCI6MTc4MDI1MDY0MywidHlwIjoicmVmcmVzaCJ9.03U9CUA04zX6wdFHel2ak9jfDCrshf2Zdm74UhqJDYgoWGYTSNwSFLEfJ1xUTnaOJfSRQznCa9i9xfZMzDjctw
+2026-05-30 23:59:51 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-30 23:59:51 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-30 23:59:51 [SpringApplicationShutdownHook] INFO  o.s.m.e.c.DefaultEventPublicationRegistry - No publications outstanding!
+2026-05-30 23:59:51 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-30 23:59:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-30 23:59:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

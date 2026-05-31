@@ -1,0 +1,41 @@
+=>In locally spring boot auth service running on port in prod is 8085
+also in container 8085 and also exposing in browser is 8085
+
+=>In locally postgresql running on port in prod is 5432 so let connect with docker postgresql..here no sepaate db container
+
+note: 8083 for dev and 8085 for prod environment
+
+🟢 Scenario A (Your current)
+DB → running on your laptop (local PostgreSQL)
+App → Docker container
+👉 Use: host.docker.internal
+👉 Docker network ❌ not needed
+------------------------------------
+🟢 Scenario B (Real production)
+DB → Docker container
+App → Docker container
+👉 Use: postgres (service name)
+👉 Docker Compose + Docker network ✅ required
+
+=======================================================================
+Execution flow
+==================
+Here i am running my spboot application inside docker but databse is my local laptop ..see the steps..
+mvn clean package -DskipTests
+docker build -t spboot-auth-service-img
+docker run -d -p 8085:8085 -e SPRING_PROFILES_ACTIVE=prod -e DB_URL=jdbc:postgresql://host.docker.internal:5432/spboot-auth-service
+-e DB_USERNAME=postgres -e DB_PASSWORD=sisu spboot-auth-service-img
+
+PS C:\Users\niran> docker ps
+CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+c1e27e0f92a2   spboot-auth-service-img   "java -jar spboot-au…"   22 minutes ago   Up 22 minutes   0.0.0.0:8085->8085/tcp, [::]:8085->8085/tcp   stoic_curie
+
+PS C:\Users\niran>
+PS C:\Users\niran> docker exec -it c1e27e0f92a2 psql -U postgres -d spboot-auth-service
+PS C:\Users\niran> docker ps
+CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+c1e27e0f92a2   spboot-auth-service-img   "java -jar spboot-au…"   24 minutes ago   Up 24 minutes   0.0.0.0:8085->8085/tcp, [::]:8085->8085/tcp   stoic_curie
+PS C:\Users\niran> docker logs c1e27e0f92a2
+
+now you can hit in postman and do login,register,refresh,add user,get user by email,by id with port localhost:8085 not 8083
+----------------------------
